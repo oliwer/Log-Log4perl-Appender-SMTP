@@ -8,12 +8,12 @@ use Carp;
 use Net::Domain 'hostfqdn';
 use Net::SMTP;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 sub new {
 	my($class, @options) = @_;
 
-	my $hname = hostfqdn() // '<unknown>';
+	my $hname = hostfqdn() || '<unknown>';
 	my $user  = getlogin || getpwuid($<) || 'log4perl';
 
 	return bless {
