@@ -8,7 +8,7 @@ use Carp;
 use Net::Domain 'hostfqdn';
 use Net::SMTP;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub new {
 	my($class, @options) = @_;

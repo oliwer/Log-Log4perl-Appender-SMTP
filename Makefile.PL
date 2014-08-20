@@ -8,7 +8,7 @@ WriteMakefile(
     AUTHOR           => 'Olivier Duclos <odc@cpan.org>',
     VERSION_FROM     => 'lib/Log/Log4perl/Appender/SMTP.pm',
     ABSTRACT_FROM    => 'lib/Log/Log4perl/Appender/SMTP.pm',
-    LICENSE          => 'Artistic_2_0',
+    LICENSE          => 'artistic_2',
     MIN_PERL_VERSION => 5.008,
     CONFIGURE_REQUIRES => {
         'ExtUtils::MakeMaker' => 0,
